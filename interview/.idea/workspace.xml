@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04129c3-c698-4415-9418-d83b0b2d0aa1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/algorithms.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data structures/linkedlist.py" afterPath="$PROJECT_DIR$/data_structures/linkedlist.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data structures/test_dataStructures.py" afterPath="$PROJECT_DIR$/data_structures/test_dataStructures.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithms/test_algorithms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/algorithms.py" afterPath="$PROJECT_DIR$/algorithms/algorithms.py" />
     </list>
     <ignored path="interview.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,7 +21,9 @@
     <SUITE FILE_PATH="coverage/interview$Nosetests_in_LinkedListTest.coverage" NAME="Nosetests in LinkedListTest Coverage Results" MODIFIED="1449794803901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data structures" />
     <SUITE FILE_PATH="coverage/interview$Nosetest_LinkedListTest_test_insert_elem.coverage" NAME="Nosetest LinkedListTest.test_insert_elem Coverage Results" MODIFIED="1449794796941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data structures" />
     <SUITE FILE_PATH="coverage/interview$Nosetests_in_interview.coverage" NAME="Nosetests in interview Coverage Results" MODIFIED="1449794767329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$algorithms.coverage" NAME="algorithms Coverage Results" MODIFIED="1449797895946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
     <SUITE FILE_PATH="coverage/interview$test_linkedList.coverage" NAME="test_linkedList Coverage Results" MODIFIED="1449792066140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$Nosetests_in_AlgorithmTest.coverage" NAME="Nosetests in AlgorithmTest Coverage Results" MODIFIED="1449796111883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
     <SUITE FILE_PATH="coverage/interview$Nosetests_in_interview__2_.coverage" NAME="Nosetests in interview (2) Coverage Results" MODIFIED="1449792541263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview$Nosetests_in_interview__3_.coverage" NAME="Nosetests in interview (3) Coverage Results" MODIFIED="1449794646564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview$Nosetests_in_interview__1_.coverage" NAME="Nosetests in interview (1) Coverage Results" MODIFIED="1449792060414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -40,34 +41,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_dataStructures.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structures/test_dataStructures.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linkedlist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structures/linkedlist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="algorithms.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithms/algorithms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +74,7 @@
         <option value="$PROJECT_DIR$/linkedlist.py" />
         <option value="$PROJECT_DIR$/test_dataStructures.py" />
         <option value="$PROJECT_DIR$/data structures/test_dataStructures.py" />
+        <option value="$PROJECT_DIR$/algorithms/test_algorithms.py" />
         <option value="$PROJECT_DIR$/algorithms/algorithms.py" />
       </list>
     </option>
@@ -187,51 +169,7 @@
       <recent name="$PROJECT_DIR$/data_structures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in LinkedListTest">
-    <configuration default="false" name="Nosetests in interview" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interview" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
-      <option name="TEST_TYPE" value="TEST_FOLDER" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetest LinkedListTest.test_initialised_empty" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data structures" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interview" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_structures/test_dataStructures.py" />
-      <option name="CLASS_NAME" value="LinkedListTest" />
-      <option name="METHOD_NAME" value="test_initialised_empty" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.algorithms">
     <configuration default="false" name="Nosetest LinkedListTest.test_insert_elem" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,6 +234,46 @@
       <option name="USE_PATTERN" value="false" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests in AlgorithmTest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interview" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/test_algorithms.py" />
+      <option name="CLASS_NAME" value="AlgorithmTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="algorithms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interview" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/algorithms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -487,19 +465,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in interview" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest LinkedListTest.test_initialised_empty" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest LinkedListTest.test_insert_elem" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest LinkedListTest.test_multiple_insert" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in LinkedListTest" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest LinkedListTest.test_insert_elem" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest LinkedListTest.test_multiple_insert" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in LinkedListTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in AlgorithmTest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.algorithms" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in LinkedListTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest LinkedListTest.test_multiple_insert" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest LinkedListTest.test_insert_elem" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest LinkedListTest.test_initialised_empty" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in interview" />
+        <item index="0" class="java.lang.String" itemvalue="Python.algorithms" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in AlgorithmTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in LinkedListTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest LinkedListTest.test_multiple_insert" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest LinkedListTest.test_insert_elem" />
       </list>
     </recent_temporary>
   </component>
@@ -517,35 +495,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetest_LinkedListTest_test_initialised_empty - 2015.12.11 at 00h 46m 31s.xml">
-      <configuration name="Nosetest LinkedListTest.test_initialised_empty" configurationId="tests" />
+    <history-entry file="Nosetests_in_AlgorithmTest - 2015.12.11 at 00h 54m 27s.xml">
+      <configuration name="Nosetests in AlgorithmTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_LinkedListTest_test_insert_elem - 2015.12.11 at 00h 46m 37s.xml">
-      <configuration name="Nosetest LinkedListTest.test_insert_elem" configurationId="tests" />
+    <history-entry file="Nosetests_in_AlgorithmTest - 2015.12.11 at 00h 57m 04s.xml">
+      <configuration name="Nosetests in AlgorithmTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_LinkedListTest_test_multiple_insert - 2015.12.11 at 00h 46m 40s.xml">
-      <configuration name="Nosetest LinkedListTest.test_multiple_insert" configurationId="tests" />
+    <history-entry file="Nosetests_in_AlgorithmTest - 2015.12.11 at 00h 58m 35s.xml">
+      <configuration name="Nosetests in AlgorithmTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_LinkedListTest - 2015.12.11 at 00h 46m 44s.xml">
-      <configuration name="Nosetests in LinkedListTest" configurationId="tests" />
+    <history-entry file="Nosetests_in_AlgorithmTest - 2015.12.11 at 00h 58m 57s.xml">
+      <configuration name="Nosetests in AlgorithmTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_interview - 2015.12.11 at 00h 46m 07s.xml">
-      <configuration name="Nosetests in interview" configurationId="tests" />
+    <history-entry file="Nosetests_in_AlgorithmTest - 2015.12.11 at 00h 59m 31s.xml">
+      <configuration name="Nosetests in AlgorithmTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_interview_(3) - 2015.12.11 at 00h 42m 41s.xml">
-      <configuration name="Nosetests in interview (3)" configurationId="tests" />
+    <history-entry file="Nosetests_in_AlgorithmTest - 2015.12.11 at 00h 59m 57s.xml">
+      <configuration name="Nosetests in AlgorithmTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_interview_(3) - 2015.12.11 at 00h 42m 59s.xml">
-      <configuration name="Nosetests in interview (3)" configurationId="tests" />
+    <history-entry file="Nosetests_in_AlgorithmTest - 2015.12.11 at 01h 00m 14s.xml">
+      <configuration name="Nosetests in AlgorithmTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_interview_(3) - 2015.12.11 at 00h 43m 16s.xml">
-      <configuration name="Nosetests in interview (3)" configurationId="tests" />
+    <history-entry file="Nosetests_in_AlgorithmTest - 2015.12.11 at 01h 07m 09s.xml">
+      <configuration name="Nosetests in AlgorithmTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_interview_(3) - 2015.12.11 at 00h 43m 36s.xml">
-      <configuration name="Nosetests in interview (3)" configurationId="tests" />
+    <history-entry file="Nosetests_in_AlgorithmTest - 2015.12.11 at 01h 08m 26s.xml">
+      <configuration name="Nosetests in AlgorithmTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_interview_(3) - 2015.12.11 at 00h 44m 06s.xml">
-      <configuration name="Nosetests in interview (3)" configurationId="tests" />
+    <history-entry file="Nosetests_in_AlgorithmTest - 2015.12.11 at 01h 08m 31s.xml">
+      <configuration name="Nosetests in AlgorithmTest" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -569,7 +547,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50625" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -591,8 +569,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data_structures/test_dataStructures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5008183">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/test_algorithms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2651391">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -601,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structures/linkedlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.7070376">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -611,7 +599,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

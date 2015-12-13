@@ -150,12 +150,24 @@ def make_change(amount, denom, index, c_map):
     return ways
 
 
+def make_change_better(n, denom, ways):
+    for coin in denom:
+        for i in range(coin, n + 1):
+            ways[i] += ways[i - coin]
+    return ways[n]
+
+
 def make_change_test():
-    denom = [100, 50, 25, 10, 5, 1]
-    n = 100
+    denom = [25, 10, 5, 1]
+    n = 25
     c_map = np.zeros((n + 1, len(denom)))
-    result = make_change(n, denom, 0, c_map)
+    # result = make_change(n, denom, 0, c_map)
+    ways = [1] + [0] * n
+    result = make_change_better(n, denom, ways)
     print result
+
+
+make_change_test()
 
 
 # 9.9
@@ -195,5 +207,4 @@ def n_queens_test():
     pos = [-1] * n
     print n_queens(n, 0, col, pos)
 
-
-n_queens_test()
+# n_queens_test()

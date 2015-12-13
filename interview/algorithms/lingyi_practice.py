@@ -114,4 +114,48 @@ def rotated_sort_test():
         print "Output: ", rotated_sort(data, 5)
 
 
-rotated_sort_test()
+# rotated_sort_test()
+
+# 9.8
+# Making change
+import numpy as np
+
+
+# Minimum number of coins needed
+def make_change1(amount, denom):
+    min_coins = np.zeros(amount + 1)
+    coin_used = np.zeros(amount + 1)
+    for i in range(amount + 1):
+        coin_count = i
+        new_coin = 1
+        for j in [k for k in denom if k <= i]:
+            if min_coins[i - j] + 1 < i:
+                coin_count = min_coins[i - j] + 1
+                new_coin = j
+        min_coins[i] = coin_count
+        coin_used[i] = new_coin
+    return min_coins[amount]
+
+
+# Number of ways to make change
+def make_change(amount, denom, index, map):
+    if map[amount][index] > 0:
+        return map[amount][index]
+    if index >= len(denom) - 1:
+        return 1
+    denom_amount = denom[index]
+    ways = 0
+    for i in range(0, amount + 1, denom_amount):
+        ways += make_change(amount - i, denom, index + 1, map)
+    return ways
+
+
+def make_change_test():
+    denom = [100, 50, 25, 10, 5, 1]
+    n = 100
+    map = np.zeros((n + 1, len(denom)))
+    result = make_change(n, denom, 0, map)
+    print result
+
+
+make_change_test()

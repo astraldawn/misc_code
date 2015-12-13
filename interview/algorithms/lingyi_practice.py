@@ -67,4 +67,51 @@ def merge_sort_test():
     print "Output:", merge_sort(data)
 
 
-merge_sort_test()
+# 11.3
+# sorted array of n integers that has been rotated
+# write code to find an element in the array
+
+def rotated_sort(data, value):
+    # Use binary search the find the actual start point
+    low = 0
+    high = len(data) - 1
+    mid = 0
+
+    # Search the switch point
+    if data[high] < data[low]:
+        while high - low >= 0:
+            mid = (low + high) // 2
+            if data[mid] > data[mid + 1]:
+                break
+            elif data[mid] > data[0]:
+                low = mid + 1
+            else:
+                high = mid - 1
+
+    switch_point = mid
+    low = 0
+    high = len(data) - 1
+    mid = 0
+
+    #  Normal binary search
+    while high - low >= 0:
+        mid = ((low + high) // 2 + switch_point) % len(data)
+        if data[mid] == value:
+            return mid
+        elif data[mid] > value:
+            high = mid - 1
+        else:
+            low = mid + 1
+    return -1
+
+
+def rotated_sort_test():
+    data1 = [15, 16, 19, 20, 25, 1, 3, 4, 5, 7, 10, 14]
+    data2 = [x for x in range(0, 10)]
+    data = [data1, data2]
+    for data in data:
+        print "Input: ", data
+        print "Output: ", rotated_sort(data, 5)
+
+
+rotated_sort_test()

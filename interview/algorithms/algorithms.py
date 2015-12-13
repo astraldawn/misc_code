@@ -45,6 +45,7 @@ class Graph:
         print
         self.reset()
 
+    # DFS recursion
     def dfs(self, cur_node):
         if cur_node in self.vis:
             return
@@ -55,8 +56,7 @@ class Graph:
 
     # Using a list as stack
     def dfs_iterative(self, start_node):
-        stack = list()
-        stack.append(start_node)
+        stack = [start_node]
         while stack:
             cur_node = stack.pop()
             if cur_node in self.vis:
@@ -64,13 +64,11 @@ class Graph:
             else:
                 self.output.append(cur_node)
                 self.vis[cur_node] = 1
-                for node in self.adj_list[cur_node]:
-                    stack.append(node)
+                stack.extend([node for node in self.adj_list[cur_node]])
 
     # Using a deque as a queue
     def bfs(self, start_node):
-        queue = deque()
-        queue.append(start_node)
+        queue = deque([start_node])
         self.dist[start_node] = 0
         while queue:
             cur_node = queue.popleft()

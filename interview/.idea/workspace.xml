@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04129c3-c698-4415-9418-d83b0b2d0aa1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/algorithms.py" afterPath="$PROJECT_DIR$/algorithms/algorithms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithms/lingyi_practice.py" afterPath="$PROJECT_DIR$/algorithms/lingyi_practice.py" />
     </list>
     <ignored path="interview.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
     <SUITE FILE_PATH="coverage/interview$data_structures_tests.coverage" NAME="data_structures_tests Coverage Results" MODIFIED="1449789824449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview$Nosetest_LinkedListTest_test_multiple_insert.coverage" NAME="Nosetest LinkedListTest.test_multiple_insert Coverage Results" MODIFIED="1449794800070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data structures" />
     <SUITE FILE_PATH="coverage/interview$data_structures.coverage" NAME="data_structures Coverage Results" MODIFIED="1449792588003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/interview$lingyi_practice.coverage" NAME="lingyi_practice Coverage Results" MODIFIED="1450030093002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
+    <SUITE FILE_PATH="coverage/interview$lingyi_practice.coverage" NAME="lingyi_practice Coverage Results" MODIFIED="1450031732327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
     <SUITE FILE_PATH="coverage/interview$Nosetest_LinkedListTest_test_initialised_empty.coverage" NAME="Nosetest LinkedListTest.test_initialised_empty Coverage Results" MODIFIED="1449794791504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data structures" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -56,8 +55,8 @@
       <file leaf-file-name="lingyi_practice.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithms/lingyi_practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1465798">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.058631923">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -608,8 +607,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/lingyi_practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1465798">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.058631923">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding />
         </state>
       </provider>

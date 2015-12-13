@@ -1,3 +1,6 @@
+import numpy as np
+import numpy.random as nprnd
+
 # Coding interview - 9.4
 # Finding all subsets in a set
 # Iterative solution using bit shifting
@@ -28,9 +31,6 @@ def find_subset_test():
 
 # Coding interview - 11.1
 # Merge sort
-import numpy.random as nprnd
-
-
 def merge_sort(data):
     if len(data) == 1:
         return data
@@ -91,7 +91,6 @@ def rotated_sort(data, value):
     switch_point = mid
     low = 0
     high = len(data) - 1
-    mid = 0
 
     #  Normal binary search
     while high - low >= 0:
@@ -118,8 +117,6 @@ def rotated_sort_test():
 
 # 9.8
 # Making change
-import numpy as np
-
 
 # Minimum number of coins needed
 def make_change1(amount, denom):
@@ -138,24 +135,65 @@ def make_change1(amount, denom):
 
 
 # Number of ways to make change
-def make_change(amount, denom, index, map):
-    if map[amount][index] > 0:
-        return map[amount][index]
+def make_change(amount, denom, index, c_map):
+    if c_map[amount][index] > 0:
+        return c_map[amount][index]
     if index >= len(denom) - 1:
         return 1
     denom_amount = denom[index]
     ways = 0
+
+    # Make a smaller amount without the current coin
     for i in range(0, amount + 1, denom_amount):
-        ways += make_change(amount - i, denom, index + 1, map)
+        ways += make_change(amount - i, denom, index + 1, c_map)
+    c_map[amount][index] = ways
     return ways
 
 
 def make_change_test():
     denom = [100, 50, 25, 10, 5, 1]
     n = 100
-    map = np.zeros((n + 1, len(denom)))
-    result = make_change(n, denom, 0, map)
+    c_map = np.zeros((n + 1, len(denom)))
+    result = make_change(n, denom, 0, c_map)
     print result
 
 
-make_change_test()
+# 9.9
+# N-queens
+
+def check_diag(i, placed, col, pos):
+    if placed == 0:
+        return True
+    check_row = placed
+    check_col = i
+    for j in range(0, placed):
+        cur_row = j
+        cur_col = pos[j]
+        diff_col = abs(cur_row - check_row)
+        diff_row = abs(cur_col - check_col)
+        if diff_col == diff_row:
+            return False
+    return True
+
+
+def n_queens(n, placed, col, pos):
+    if placed == n:
+        return 1
+    ways = 0
+    for i in range(n):
+        if not col[i] and check_diag(i, placed, col, pos):
+            col[i] = True
+            pos[placed] = i
+            ways += n_queens(n, placed + 1, col, pos)
+            col[i] = False
+    return ways
+
+
+def n_queens_test():
+    n = 11
+    col = [False] * n
+    pos = [-1] * n
+    print n_queens(n, 0, col, pos)
+
+
+n_queens_test()

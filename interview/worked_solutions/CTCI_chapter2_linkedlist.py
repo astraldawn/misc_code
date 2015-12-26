@@ -7,7 +7,7 @@
 
 
 class Node:
-    def __init__(self, value):
+    def __init__(self, value=None):
         self.value = value
         self.next = None
 
@@ -38,6 +38,14 @@ def print_list(head):
         output.append(cur.value)
         cur = cur.get_next()
     print output
+
+
+def create_list():
+    items = [7, 20, 9, 8, 4, 1, 15, 12]
+    head = Node(6)
+    for item in items:
+        head.append(item)
+    return head
 
 
 # 2.1 Write code to remove duplicates from an unsorted linked list
@@ -153,18 +161,58 @@ def three(node):
 
 
 def test_three():
-    head = Node(0)
-    for i in range(1, 10):
-        head.append(i)
+    head = create_list()
     cur_node = head.get_node(2)
     three(cur_node)
     print_list(head)
 
 
-test_three()
-
 # 2.4 Write code to partition a linked list around a value x, such that all
 # nodes less than x come before all nodes greater than or equal to x
+#
+# Split into two linked lists
+def four(head, x):
+    list_l = None
+    list_geq = None
+    cur = head
+    seen = False
+    while cur is not None:
+        if cur.value < x:
+            if list_l is None:
+                list_l = Node(cur.value)
+            else:
+                list_l.append(cur.value)
+        else:
+            if cur.value == x and not seen:
+                seen = True
+            else:
+                if list_geq is None:
+                    list_geq = Node(cur.value)
+                else:
+                    list_geq.append(cur.value)
+        cur = cur.next
+
+    list_l.append(x)
+
+    # Merge the two lists
+    cur = list_l
+    while list_l is not None and list_l.next is not None:
+        list_l = list_l.next
+
+    list_l.next = list_geq
+    return cur
+
+
+def test_four():
+    head = create_list()
+    head.append(8)
+    head.append(8)
+    res = four(head, 8)
+    print_list(head)
+    print_list(res)
+
+
+test_four()
 
 # 2.5 You have two numbers represented by a linked list, where each node
 # contains a single digit. The digits are stored in reverse order, such that

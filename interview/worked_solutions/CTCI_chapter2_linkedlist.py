@@ -21,6 +21,15 @@ class Node:
             n = n.next
         n.next = end
 
+    # Return the node at the given index
+    def get_node(self, index):
+        n = self
+        for i in range(0, index):
+            if n is None:
+                return n
+            n = n.next
+        return n
+
 
 def print_list(head):
     cur = head
@@ -82,6 +91,8 @@ def test_one():
 #
 # The solution is trivial if the length of list is known.
 #
+# In the solutions, the 0-th to last element is the last element in the LL
+#
 # This is the recursive solution. It works by passing a counter back upward.
 # However, the recursive calls require O(N) space
 def two_recursive(head, k):
@@ -93,7 +104,6 @@ def two_recursive(head, k):
     return i
 
 
-# In our solution, the 0-th to last element is the last element in the LL
 # This solution is a nice iterative answer
 def two_iterative(head, k):
     p1 = head
@@ -117,19 +127,41 @@ def two_iterative(head, k):
 
 
 def test_two():
-    head = Node(1)
-    for i in range(2, 10):
+    head = Node(0)
+    for i in range(1, 10):
         head.append(i)
     print_list(head)
     two_recursive(head, 8)
 
 
-test_two()
-
 # 2.3 Implement an algorithm to delete a node in the middle of a singly
 # linked list, given only access to that node
 # Eg. given node c from a -> b -> c -> d -> e
 # Res: nothing is returned by the new linked list looks like a -> b -> d -> e
+#
+# This is one the few questions where edge cases are important. If the node
+# isn't initialised or the node is at the end of the list
+def three(node):
+    # Failure conditions
+    if node is None or node.next is None:
+        return -1
+
+    # Replace the current node with the next node
+    next_node = node.next
+    node.value = next_node.value
+    node.next = next_node.next
+
+
+def test_three():
+    head = Node(0)
+    for i in range(1, 10):
+        head.append(i)
+    cur_node = head.get_node(2)
+    three(cur_node)
+    print_list(head)
+
+
+test_three()
 
 # 2.4 Write code to partition a linked list around a value x, such that all
 # nodes less than x come before all nodes greater than or equal to x

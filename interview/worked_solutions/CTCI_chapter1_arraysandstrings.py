@@ -63,8 +63,8 @@ def test_one_three():
 # assume that the string has sufficient space at the end of the string to
 # hold the additional characters and that you are given the "true" length of
 # the string.
-def one_four(s, len):
-    return s[:len].replace(' ', '%20')
+def one_four(s, length):
+    return s[:length].replace(' ', '%20')
 
 
 def test_one_four():

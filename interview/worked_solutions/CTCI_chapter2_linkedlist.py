@@ -22,6 +22,15 @@ class Node:
         n.next = end
 
 
+def print_list(head):
+    cur = head
+    output = []
+    while cur is not None:
+        output.append(cur.value)
+        cur = cur.get_next()
+    print output
+
+
 # 2.1 Write code to remove duplicates from an unsorted linked list
 # Follow-up: How to solve the problem if a temporary buffer is not allowed
 
@@ -65,20 +74,54 @@ def test_one():
     head.append(2)
     # head = one(head)
     head = one_followup(head)
-    cur = head
-    while cur is not None:
-        print cur.value
-        cur = cur.get_next()
+    print_list(head)
 
 
 # 2.2 Implement an algorithm to find the k-th to last element of a singly
 # linked list
-def two():
-    pass
+#
+# The solution is trivial if the length of list is known.
+#
+# This is the recursive solution. It works by passing a counter back upward.
+# However, the recursive calls require O(N) space
+def two_recursive(head, k):
+    if head is None:
+        return -1
+    i = two_recursive(head.next, k) + 1
+    if i == k:
+        print head.value
+    return i
+
+
+# In our solution, the 0-th to last element is the last element in the LL
+# This solution is a nice iterative answer
+def two_iterative(head, k):
+    p1 = head
+    p2 = head
+
+    # Move p1 k spaces ahead of p2
+    for i in range(0, k):
+        if p1 is None:
+            return -1
+        p1 = p1.next
+
+    if p1 is None:
+        return -1
+
+    # Then run through the list per normal
+    while p1.next is not None:
+        p1 = p1.next
+        p2 = p2.next
+
+    return p2.value
 
 
 def test_two():
-    pass
+    head = Node(1)
+    for i in range(2, 10):
+        head.append(i)
+    print_list(head)
+    two_recursive(head, 8)
 
 
 test_two()

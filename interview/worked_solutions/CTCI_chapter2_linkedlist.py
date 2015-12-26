@@ -283,7 +283,9 @@ def test_six():
 # 2.7 Implement a function to check if a linked list is a palindrome
 #
 # Again using the fast / slow runner concept. Use a fast runner to reach the
-# end of the LL. Then the slow runner will be halfway through the LL.
+# end of the LL. Then the slow runner will be halfway through the LL. Store
+# the stuff that has already been seen into the stack. Alternatives include
+# reversing the linked list and checking if the 2 lists are identical
 def seven(head):
     slow = head
     fast = head

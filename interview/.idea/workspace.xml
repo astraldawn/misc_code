@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04129c3-c698-4415-9418-d83b0b2d0aa1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worked_solutions/CTCI_chapter1_arraysandstrings.py" afterPath="$PROJECT_DIR$/worked_solutions/CTCI_chapter1_arraysandstrings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structures/linkedlist.py" afterPath="$PROJECT_DIR$/data_structures/linkedlist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worked_solutions/CTCI_chapter2_linkedlist.py" afterPath="$PROJECT_DIR$/worked_solutions/CTCI_chapter2_linkedlist.py" />
     </list>
     <ignored path="interview.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +27,11 @@
     <SUITE FILE_PATH="coverage/interview$data_structures_tests.coverage" NAME="data_structures_tests Coverage Results" MODIFIED="1449789824449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview$Nosetest_LinkedListTest_test_multiple_insert.coverage" NAME="Nosetest LinkedListTest.test_multiple_insert Coverage Results" MODIFIED="1449794800070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data structures" />
     <SUITE FILE_PATH="coverage/interview$data_structures.coverage" NAME="data_structures Coverage Results" MODIFIED="1449792588003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/interview$CTCI_chapter2_linkedlist.coverage" NAME="CTCI_chapter2_linkedlist Coverage Results" MODIFIED="1451155185886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worked_solutions" />
     <SUITE FILE_PATH="coverage/interview$egg_drop.coverage" NAME="egg_drop Coverage Results" MODIFIED="1451062897816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worked_solutions" />
     <SUITE FILE_PATH="coverage/interview$Nosetests_in_interview.coverage" NAME="Nosetests in interview Coverage Results" MODIFIED="1449794767329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview$test_linkedList.coverage" NAME="test_linkedList Coverage Results" MODIFIED="1449792066140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/interview$coding_interview_chapter1.coverage" NAME="coding_interview_chapter1 Coverage Results" MODIFIED="1451089050086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worked_solutions" />
+    <SUITE FILE_PATH="coverage/interview$coding_interview_chapter1.coverage" NAME="coding_interview_chapter1 Coverage Results" MODIFIED="1451094321594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worked_solutions" />
     <SUITE FILE_PATH="coverage/interview$Nosetests_in_AlgorithmTest.coverage" NAME="Nosetests in AlgorithmTest Coverage Results" MODIFIED="1449796111883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
     <SUITE FILE_PATH="coverage/interview$lingyi_practice.coverage" NAME="lingyi_practice Coverage Results" MODIFIED="1450281449656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
     <SUITE FILE_PATH="coverage/interview$Nosetest_LinkedListTest_test_initialised_empty.coverage" NAME="Nosetest LinkedListTest.test_initialised_empty Coverage Results" MODIFIED="1449794791504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data structures" />
@@ -54,11 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CTCI_chapter1_arraysandstrings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CTCI_chapter2_linkedlist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/worked_solutions/CTCI_chapter2_linkedlist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5294118">
+              <caret line="308" column="17" selection-start-line="308" selection-start-column="17" selection-end-line="308" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CTCI_chapter1_arraysandstrings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worked_solutions/CTCI_chapter1_arraysandstrings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9705882">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,6 +105,9 @@
         <option value="$PROJECT_DIR$/worked_solutions/egg_drop.py" />
         <option value="$PROJECT_DIR$/worked_solutions/coding_interview_chapter1.py" />
         <option value="$PROJECT_DIR$/worked_solutions/CTCI_chapter1_arraysandstrings.py" />
+        <option value="$PROJECT_DIR$/data_structures/linkedlist.py" />
+        <option value="$PROJECT_DIR$/worked_solutions/linkedlist.py" />
+        <option value="$PROJECT_DIR$/worked_solutions/CTCI_chapter2_linkedlist.py" />
       </list>
     </option>
   </component>
@@ -162,6 +178,10 @@
               <option name="myItemId" value="interview" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_structures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -170,10 +190,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="interview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -195,29 +211,7 @@
       <recent name="$PROJECT_DIR$/data_structures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.coding_interview_chapter1">
-    <configuration default="false" name="Nosetests in AlgorithmTest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="interview" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithms/test_algorithms.py" />
-      <option name="CLASS_NAME" value="AlgorithmTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.CTCI_chapter2_linkedlist">
     <configuration default="false" name="algorithms" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,6 +280,24 @@
       <module name="interview" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/worked_solutions/CTCI_chapter1_arraysandstrings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CTCI_chapter2_linkedlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/worked_solutions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="interview" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/worked_solutions/CTCI_chapter2_linkedlist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -484,19 +496,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in AlgorithmTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.algorithms" />
-      <item index="2" class="java.lang.String" itemvalue="Python.lingyi_practice" />
-      <item index="3" class="java.lang.String" itemvalue="Python.egg_drop" />
-      <item index="4" class="java.lang.String" itemvalue="Python.coding_interview_chapter1" />
+      <item index="0" class="java.lang.String" itemvalue="Python.algorithms" />
+      <item index="1" class="java.lang.String" itemvalue="Python.lingyi_practice" />
+      <item index="2" class="java.lang.String" itemvalue="Python.egg_drop" />
+      <item index="3" class="java.lang.String" itemvalue="Python.coding_interview_chapter1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.CTCI_chapter2_linkedlist" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.coding_interview_chapter1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.egg_drop" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lingyi_practice" />
-        <item index="3" class="java.lang.String" itemvalue="Python.algorithms" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in AlgorithmTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CTCI_chapter2_linkedlist" />
+        <item index="1" class="java.lang.String" itemvalue="Python.coding_interview_chapter1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.egg_drop" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lingyi_practice" />
+        <item index="4" class="java.lang.String" itemvalue="Python.algorithms" />
       </list>
     </recent_temporary>
   </component>
@@ -706,24 +718,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/test_dataStructures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5008183">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/test_algorithms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2651391">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structures/linkedlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7070376">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -741,6 +739,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/worked_solutions/CTCI_chapter1_arraysandstrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structures/test_dataStructures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/lingyi_practice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -751,10 +765,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worked_solutions/CTCI_chapter1_arraysandstrings.py">
+    <entry file="file://$PROJECT_DIR$/data_structures/linkedlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9705882">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.5588236">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worked_solutions/CTCI_chapter2_linkedlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5294118">
+          <caret line="308" column="17" selection-start-line="308" selection-start-column="17" selection-end-line="308" selection-end-column="17" />
           <folding />
         </state>
       </provider>

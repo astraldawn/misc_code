@@ -1,4 +1,4 @@
-class Node(object):
+class LinkedListNode(object):
     def __init__(self, item):
         self.value = item
         self.next = None
@@ -8,7 +8,7 @@ class LinkedList:
     def __init__(self, item=None):
         self.size = 0
         if item is not None:
-            self.head = Node(item)
+            self.head = LinkedListNode(item)
             self.tail = self.head
         else:
             self.head = None
@@ -23,13 +23,13 @@ class LinkedList:
     def insert_to_tail(self, item):
         self.size += 1
         if not self.head:
-            self.head = Node(item)
+            self.head = LinkedListNode(item)
             self.tail = self.head
         elif self.tail:
-            self.tail.next = Node(item)
+            self.tail.next = LinkedListNode(item)
             self.tail = self.tail.next
         else:
-            self.tail = Node(item)
+            self.tail = LinkedListNode(item)
 
     def insert_to_pos(self, item, pos=0):
         if pos >= self.size - 1:
@@ -37,7 +37,7 @@ class LinkedList:
             self.insert_to_tail(item)
             return
 
-        new_node = Node(item)
+        new_node = LinkedListNode(item)
         self.size += 1
         # Insert to head
         if pos == 0:

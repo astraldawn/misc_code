@@ -34,9 +34,11 @@ class Node:
 def print_list(head):
     cur = head
     output = []
-    while cur is not None:
+    cnt = 0
+    while cur is not None and cnt < 100:
         output.append(cur.value)
         cur = cur.get_next()
+        cnt += 1
     print output
 
 
@@ -212,8 +214,6 @@ def test_four():
     print_list(res)
 
 
-test_four()
-
 # 2.5 You have two numbers represented by a linked list, where each node
 # contains a single digit. The digits are stored in reverse order, such that
 # the 1's digit is at the head of the list. Write a function that adds the
@@ -237,4 +237,82 @@ test_four()
 # IN: A -> B -> C -> D -> E -> C
 # OUT: C
 
+# Use two pointers, one that is fast and one that is slow.
+# Fast pointer moves at twice the speed of the slow pointer
+def six(head):
+    slow = head
+    fast = head
+
+    # Find the meeting point. This will be at LOOP_SIZE - k steps into the
+    # linked list
+    while fast is not None and fast.next is not None:
+        slow = slow.next
+        fast = fast.next.next
+        if slow == fast:
+            break
+
+    # Error checking
+    if fast is None or fast.next is None:
+        return None
+
+    # Reset the slow pointer and keep the fast pointer where it is. Each of
+    # them are k steps from the loop start. If the move at the same pace,
+    # they must meet at the loop start
+    slow = head
+    while slow != fast:
+        slow = slow.next
+        fast = fast.next
+
+    return fast
+
+
+def test_six():
+    head = Node('A')
+    n1 = Node('B')
+    n2 = Node('C')
+    n3 = Node('D')
+    n4 = Node('E')
+    head.next = n1
+    n1.next = n2
+    n2.next = n3
+    n3.next = n4
+    n4.next = n2
+    print six(head).value
+
+
 # 2.7 Implement a function to check if a linked list is a palindrome
+#
+# Again using the fast / slow runner concept. Use a fast runner to reach the
+# end of the LL. Then the slow runner will be halfway through the LL.
+def seven(head):
+    slow = head
+    fast = head
+    stack = []
+
+    while fast is not None and fast.next is not None:
+        stack.append(slow.value)
+        slow = slow.next
+        fast = fast.next.next
+
+    # Odd number of elements, skip the middle
+    if fast is not None:
+        slow = slow.next
+
+    while slow is not None:
+        if slow.value != stack.pop():
+            return False
+        slow = slow.next
+
+    return True
+
+
+def test_seven():
+    head = Node(1)
+    head.append(2)
+    head.append(3)
+    head.append(3)
+    head.append(2)
+    head.append(1)
+    print seven(head)  # Expect true
+    head.append(1)
+    print seven(head)  # Expect false

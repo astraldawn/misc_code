@@ -171,3 +171,41 @@ def make_change_test():
     ways = [1] + [0] * n
     result = make_change_better(n, denom, ways)
     print result
+
+
+# Knapsack
+
+# os.walk
+
+# Hashing
+import hashlib
+
+# Using a block is important when dealing with files that may be very large
+BLOCKSIZE = 65536
+hasher = hashlib.md5()
+with open('anotherfile.txt', 'rb') as afile:
+    buf = afile.read(BLOCKSIZE)
+    while len(buf) > 0:
+        hasher.update(buf)
+        buf = afile.read(BLOCKSIZE)
+print(hasher.hexdigest())
+
+# Dictionary keys and values
+A = {'a': 1, 'b': 2, 'c': 3}
+print A.keys()
+print A.values()
+print [x for x in A]  # Default iterator through dictionary is keys
+print [x for x in A.iteritems()]  # Iterates through the entire dictionary
+
+# Collections
+from collections import defaultdict
+
+A = defaultdict(list)  # int can be used also
+A['a'].append('x')
+A['a'].append('5')
+print A
+
+# Random number generator
+from random import randint
+
+print randint(0, 63)  # Returns random integer N such that 0 <= N <= 63

@@ -100,3 +100,29 @@ royson_google_q2_test1 = [(10, 'A'), (20, 'B'), (30, 'A'), (40, 'C'), (50, 'B'),
 
 # print royson_google_q2(royson_google_q2_test1, 43)
 # print royson_google_q2(royson_google_q2_test1, 86)
+
+
+# Given N '0' and M '1', write an algorithm that puts them into a list and
+# returns each possible list with equal probability
+
+# Almost all module functions depend on the basic function random(), which
+# generates a random float uniformly in the semi-open range [0.0, 1.0).
+# Python uses the Mersenne Twister as the core generator.
+# It produces 53-bit precision floats and has a period of 2**19937-1.
+# The underlying implementation in C is both fast and threadsafe.
+# The Mersenne Twister is one of the most extensively tested random number
+# generators in existence. However, being completely deterministic, it is not
+# suitable for all purposes, and is completely unsuitable for
+# cryptographic purposes.
+
+from random import sample
+
+
+def array_shuffle(N, K):
+    A = [1] * K + [0] * (N - K)
+    return sample(A, len(A))
+    # sample(population, K) --> Random sampling without replacement
+    # shuffle(A) --> Not exactly correct due to limitations of the RNG
+
+
+print array_shuffle(64, 3)

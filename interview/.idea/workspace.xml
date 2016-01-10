@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04129c3-c698-4415-9418-d83b0b2d0aa1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/worked_solutions/python_notes.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/algorithms/lingyi_practice.py" afterPath="$PROJECT_DIR$/worked_solutions/lingyi_practice.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worked_solutions/Interview_questions.py" afterPath="$PROJECT_DIR$/worked_solutions/Interview_questions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worked_solutions/python_notes.py" afterPath="$PROJECT_DIR$/worked_solutions/python_notes.py" />
     </list>
     <ignored path="interview.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,13 +28,13 @@
     <SUITE FILE_PATH="coverage/interview$Nosetest_LinkedListTest_test_multiple_insert.coverage" NAME="Nosetest LinkedListTest.test_multiple_insert Coverage Results" MODIFIED="1449794800070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data structures" />
     <SUITE FILE_PATH="coverage/interview$data_structures.coverage" NAME="data_structures Coverage Results" MODIFIED="1449792588003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview$CTCI_chapter2_linkedlist.coverage" NAME="CTCI_chapter2_linkedlist Coverage Results" MODIFIED="1451429120717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worked_solutions" />
-    <SUITE FILE_PATH="coverage/interview$Interview_questions.coverage" NAME="Interview_questions Coverage Results" MODIFIED="1452461963783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worked_solutions" />
+    <SUITE FILE_PATH="coverage/interview$Interview_questions.coverage" NAME="Interview_questions Coverage Results" MODIFIED="1452464541347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worked_solutions" />
     <SUITE FILE_PATH="coverage/interview$egg_drop.coverage" NAME="egg_drop Coverage Results" MODIFIED="1451062897816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worked_solutions" />
     <SUITE FILE_PATH="coverage/interview$Nosetests_in_interview.coverage" NAME="Nosetests in interview Coverage Results" MODIFIED="1449794767329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview$test_linkedList.coverage" NAME="test_linkedList Coverage Results" MODIFIED="1449792066140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/interview$coding_interview_chapter1.coverage" NAME="coding_interview_chapter1 Coverage Results" MODIFIED="1451094321594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worked_solutions" />
     <SUITE FILE_PATH="coverage/interview$Nosetests_in_AlgorithmTest.coverage" NAME="Nosetests in AlgorithmTest Coverage Results" MODIFIED="1449796111883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
-    <SUITE FILE_PATH="coverage/interview$python_notes.coverage" NAME="python_notes Coverage Results" MODIFIED="1452463301481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worked_solutions" />
+    <SUITE FILE_PATH="coverage/interview$python_notes.coverage" NAME="python_notes Coverage Results" MODIFIED="1452464118813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/worked_solutions" />
     <SUITE FILE_PATH="coverage/interview$lingyi_practice.coverage" NAME="lingyi_practice Coverage Results" MODIFIED="1450281449656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithms" />
     <SUITE FILE_PATH="coverage/interview$Nosetest_LinkedListTest_test_initialised_empty.coverage" NAME="Nosetest LinkedListTest.test_initialised_empty Coverage Results" MODIFIED="1449794791504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data structures" />
   </component>
@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/worked_solutions/Interview_questions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+              <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -80,8 +80,8 @@
       <file leaf-file-name="python_notes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/worked_solutions/python_notes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79512197">
-              <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.44390243">
+              <caret line="182" column="75" selection-start-line="182" selection-start-column="75" selection-end-line="182" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -249,7 +249,7 @@
       <recent name="$PROJECT_DIR$/data_structures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.python_notes">
+  <component name="RunManager" selected="Python.Interview_questions">
     <configuration default="false" name="egg_drop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -542,8 +542,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.python_notes" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Interview_questions" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Interview_questions" />
+        <item index="1" class="java.lang.String" itemvalue="Python.python_notes" />
         <item index="2" class="java.lang.String" itemvalue="Python.CTCI_chapter2_linkedlist" />
         <item index="3" class="java.lang.String" itemvalue="Python.coding_interview_chapter1" />
         <item index="4" class="java.lang.String" itemvalue="Python.egg_drop" />
@@ -835,14 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worked_solutions/Interview_questions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worked_solutions/lingyi_practice.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -851,10 +843,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/worked_solutions/Interview_questions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/worked_solutions/python_notes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79512197">
-          <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.44390243">
+          <caret line="182" column="75" selection-start-line="182" selection-start-column="75" selection-end-line="182" selection-end-column="75" />
           <folding />
         </state>
       </provider>

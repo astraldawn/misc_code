@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c04129c3-c698-4415-9418-d83b0b2d0aa1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Python compiled notes-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Python compiled notes-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python compiled notes.ipynb" afterPath="$PROJECT_DIR$/Python compiled notes.ipynb" />
-    </list>
+    <list default="true" id="c04129c3-c698-4415-9418-d83b0b2d0aa1" name="Default" comment="" />
     <ignored path="interview.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c04129c3-c698-4415-9418-d83b0b2d0aa1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Python compiled notes-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Python compiled notes-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python compiled notes.ipynb" afterPath="$PROJECT_DIR$/Python compiled notes.ipynb" />
     </list>
     <ignored path="interview.iws" />
@@ -55,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Interview_questions.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Interview_questions.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/worked_solutions/Interview_questions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.55609757">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -69,17 +70,17 @@
         <entry file="file://$PROJECT_DIR$/worked_solutions/lingyi_practice.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="167" column="16" selection-start-line="118" selection-start-column="0" selection-end-line="167" selection-end-column="16" />
+              <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="python_notes.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="python_notes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worked_solutions/python_notes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76585364">
-              <caret line="119" column="23" selection-start-line="71" selection-start-column="0" selection-end-line="119" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="131" column="22" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -843,22 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worked_solutions/lingyi_practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="167" column="16" selection-start-line="118" selection-start-column="0" selection-end-line="167" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worked_solutions/Interview_questions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python compiled notes.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -868,8 +853,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worked_solutions/python_notes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76585364">
-          <caret line="119" column="23" selection-start-line="71" selection-start-column="0" selection-end-line="119" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="22" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worked_solutions/lingyi_practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worked_solutions/Interview_questions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55609757">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding />
         </state>
       </provider>

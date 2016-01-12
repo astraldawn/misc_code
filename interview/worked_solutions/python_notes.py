@@ -128,7 +128,7 @@ print A, B, B1, C, D, E
 def make_change1(amount, denom):
     min_coins = np.zeros(amount + 1)
     coin_used = np.zeros(amount + 1)
-    for i in range(amount + 1):
+    for i in xrange(amount + 1):
         coin_count = i
         new_coin = 1
         for j in [k for k in denom if k <= i]:
@@ -150,7 +150,7 @@ def make_change(amount, denom, index, c_map):
     ways = 0
 
     # Make a smaller amount without the current coin
-    for i in range(0, amount + 1, denom_amount):
+    for i in xrange(0, amount + 1, denom_amount):
         ways += make_change(amount - i, denom, index + 1, c_map)
     c_map[amount][index] = ways
     return ways
@@ -158,7 +158,7 @@ def make_change(amount, denom, index, c_map):
 
 def make_change_better(n, denom, ways):
     for coin in denom:
-        for i in range(coin, n + 1):
+        for i in xrange(coin, n + 1):
             ways[i] += ways[i - coin]
     return ways[n]
 
